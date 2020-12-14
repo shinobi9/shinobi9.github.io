@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>hello</title>
+    <link href="/2020/12/07/hello/"/>
+    <url>/2020/12/07/hello/</url>
+    
+    <content type="html"><![CDATA[<h2 id="hello"><a href="#hello" class="headerlink" title="hello!"></a>hello!</h2><a id="more"></a><p>这个博客由 github + drone 完成<br>使用了两个仓库<br><code>github.com/shinobi9/hexo-blog</code>  <code>github.com/shinobi9/shinobi9.github.io</code></p><p><code>hexo-blog</code> 推送会用webhook trigger <code>drone.io</code> ,<br>执行 <code>hexo deploy</code>,部署到 <a href="https://shinobi9.github.io/">https://shinobi9.github.io</a>,<br>因为配置了 CNAME, 故会跳转到 最终的配置的域名 <a href="https://blog.shinobi9.cyou/">https://blog.shinobi9.cyou</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>misc</tag>
+      
+      <tag>hello world</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
