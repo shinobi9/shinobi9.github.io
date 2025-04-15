@@ -52,15 +52,15 @@ function decryptEmail(encoded) {
 
 document.addEventListener('DOMContentLoaded', function () {
 	// 获取一言数据
-	var xhr = new XMLHttpRequest();
-	xhr.onreadystatechange = function () {
-		if (this.readyState == 4 && this.status == 200) {
-			var res = JSON.parse(this.responseText);
-			document.getElementById('description').innerHTML = res.hitokoto + "<br/> -「<strong>" + res.from + "</strong>」";
-		}
-	};
-	xhr.open("GET", "https://v1.hitokoto.cn", true);
-	xhr.send();
+	// var xhr = new XMLHttpRequest();
+	// xhr.onreadystatechange = function () {
+	// 	if (this.readyState == 4 && this.status == 200) {
+	// 		var res = JSON.parse(this.responseText);
+	// 		document.getElementById('description').innerHTML = res.hitokoto + "<br/> -「<strong>" + res.from + "</strong>」";
+	// 	}
+	// };
+	// xhr.open("GET", "https://v1.hitokoto.cn", true);
+	// xhr.send();
 
 	var iUpElements = document.querySelectorAll(".iUp");
 	iUpElements.forEach(function (element) {
